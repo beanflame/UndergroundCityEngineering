@@ -15,7 +15,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class UCECreativeTab
 {
-	public static final CreativeTabs UCETAB = new CreativeTabs(UCEmod.MODID + ".underground_city_engineering" + ".name")
+	public static final CreativeTabs UCETAB = new CreativeTabs(UCEmod.MODID + ".uce" + ".name")
 	{
 		@SideOnly(Side.CLIENT)
 		public ItemStack createIcon()

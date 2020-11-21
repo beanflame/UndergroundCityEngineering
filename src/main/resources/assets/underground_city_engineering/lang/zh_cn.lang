@@ -2,7 +2,7 @@
 
 
 #itemgroup
-itemGroup.underground_city_engineering.underground_city_engineering.name=地下城市工程
+itemGroup.underground_city_engineering.uce.name=地下城市工程
 
 
 
@@ -11,12 +11,13 @@ itemGroup.underground_city_engineering.underground_city_engineering.name=地下�
 tile.underground_city_engineering.mining_machine.name=采矿机
 tile.underground_city_engineering.mining_tube.name=采矿管
 
-tile.underground_city_engineering.core_block.name=核心方块
 
 
 #tile.underground_city_engineering.part_block.name=机器机壳
 
-#tile.underground_city_engineering.electric_circuit_block.name=电路方块
+
+tile.underground_city_engineering.core_block.name=核心方块
+tile.underground_city_engineering.electric_circuit_block.name=电路方块
 tile.underground_city_engineering.machinery_block.name=机械方块
 
 #item
