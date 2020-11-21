@@ -12,6 +12,8 @@ import net.minecraft.block.material.Material;
 public class BlockMachineryBlock extends Block {
 
     //机械方块
+
+
     public BlockMachineryBlock()
     {
         super(Material.GLASS);

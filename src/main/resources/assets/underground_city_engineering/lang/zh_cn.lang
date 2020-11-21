@@ -13,9 +13,7 @@ tile.underground_city_engineering.mining_tube.name=采矿管
 
 
 
-#tile.underground_city_engineering.part_block.name=机器机壳
-
-
+tile.underground_city_engineering.machinery_casing.name=机械外壳
 tile.underground_city_engineering.core_block.name=核心方块
 tile.underground_city_engineering.electric_circuit_block.name=电路方块
 tile.underground_city_engineering.machinery_block.name=机械方块

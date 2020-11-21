@@ -31,12 +31,14 @@ public class UCEModelLoader
 
 
         registerItemModel(Item.getItemFromBlock(UCEBlock.CORE_BLOCK));      //核心方块
+
         registerItemModel(Item.getItemFromBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK));      //零件块
 
         registerItemModel(Item.getItemFromBlock(UCEBlock.MACHINERY_BLOCK));      //机械方块
 
-       // registerItemModel(UCEItem.BUCKET_WHEEL);                            //斗轮 物品
+        registerItemModel(Item.getItemFromBlock(UCEBlock.MACHINERY_CASING));      //机械外壳
 
+       // registerItemModel(UCEItem.BUCKET_WHEEL);                            //斗轮 物品
 
     }
     

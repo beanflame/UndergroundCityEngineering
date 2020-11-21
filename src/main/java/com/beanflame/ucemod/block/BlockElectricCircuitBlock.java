@@ -16,6 +16,7 @@ public class BlockElectricCircuitBlock extends BlockDirectional
     //electric_circuit_block
     //电路方块
     //电路方块
+
     public BlockElectricCircuitBlock()
     {
         super(Material.ROCK);

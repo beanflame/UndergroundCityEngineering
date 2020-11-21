@@ -26,6 +26,8 @@ public class BlockMiningMachine extends Block
     public static final PropertyDirection FACING = BlockHorizontal.FACING;
 
 
+    //采矿机
+
 	public BlockMiningMachine()
 	{
 		super(Material.ROCK);

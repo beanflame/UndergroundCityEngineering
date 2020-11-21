@@ -15,6 +15,12 @@ import net.minecraft.world.World;
 
 public class BlockCoreBlock extends BlockDirectional
 {
+    //核心方块
+
+
+    //machinery_casing
+    //machinery_casing
+
     public BlockCoreBlock()
     {
         super(Material.ROCK);

@@ -24,7 +24,9 @@ import net.minecraft.world.IBlockAccess;
 public class BlockMiningTube extends Block
 {
 	protected static final AxisAlignedBB MINING_TUBE_AABB = new AxisAlignedBB(4 /16D, 0 /16D, 4 /16D, 12 /16D, 16 /16D, 12 /16D);
-	
+
+	//采矿管
+
 	public BlockMiningTube()
     {
         super(Material.GLASS);

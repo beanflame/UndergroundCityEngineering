@@ -16,14 +16,23 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class UCEBlock
 {
 	public static final Block MINING_MACHINE = new BlockMiningMachine();
+
 	public static final Block MINING_TUBE = new BlockMiningTube();
 	
 	public static final Block CORE_BLOCK = new BlockCoreBlock();
+
 	public static final Block ELECTRIC_CIRCUIT_BLOCK = new BlockElectricCircuitBlock();
 
 	public static final Block MACHINERY_BLOCK = new BlockMachineryBlock();
 
+	public static final Block MACHINERY_CASING= new BlockMachineryCasing();
+
+
+
+
 	private RegistryEvent.Register<Block> blockRegister;
+
+
 	@SubscribeEvent
 	public void registerBlocks(RegistryEvent.Register<Block> event)
 	{
@@ -38,6 +47,12 @@ public class UCEBlock
 		regBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK);		//电路块
 
 		regBlock(UCEBlock.MACHINERY_BLOCK);				//机械方块
+
+		regBlock(UCEBlock.MACHINERY_CASING);			//机械外壳
+
+
+
+
 
 	}
 
@@ -55,6 +70,9 @@ public class UCEBlock
 		event.getRegistry().register(new ItemBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK).setRegistryName(UCEBlock.ELECTRIC_CIRCUIT_BLOCK.getRegistryName()));
 
 		event.getRegistry().register(new ItemBlock(UCEBlock.MACHINERY_BLOCK).setRegistryName(UCEBlock.MACHINERY_BLOCK.getRegistryName()));
+
+
+		event.getRegistry().register(new ItemBlock(UCEBlock.MACHINERY_CASING).setRegistryName(UCEBlock.MACHINERY_CASING.getRegistryName()));
 
 	}
 
