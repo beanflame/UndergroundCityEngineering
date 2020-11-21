@@ -1,13 +1,13 @@
 [
 {
-  "modid": "uce",
-  "name": "地下城市工程",
+  "modid": "underground_city_engineering",
+  "name": "Underground City Engineering",
   "description": "",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["GoldMain","Mr_zhao","DouYan"],
+  "authorList": ["beanflame","GoldMain","Mr_zhao"],
   "credits": "The Forge and FML guys, for making this example",
   "logoFile": "logo.png",
   "screenshots": [],
