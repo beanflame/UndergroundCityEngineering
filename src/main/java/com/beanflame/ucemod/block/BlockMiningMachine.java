@@ -1,6 +1,3 @@
-/**
- * Creative by DouYan on 2020-01-15 16:23
- */
 package com.beanflame.ucemod.block;
 
 import com.beanflame.ucemod.UCEmod;
@@ -19,6 +16,10 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+/**
+ * Creative by beanflame on 2020-01-15 16:23
+ */
 
 public class BlockMiningMachine extends Block
 {

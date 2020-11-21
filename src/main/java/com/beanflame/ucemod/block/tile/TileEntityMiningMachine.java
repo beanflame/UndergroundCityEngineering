@@ -1,6 +1,3 @@
-/**
- * Creative by DouYan on 2020-01-15 16:23
- */
 package com.beanflame.ucemod.block.tile;
 
 import com.beanflame.ucemod.Debug;
@@ -22,6 +19,10 @@ import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 
 import java.util.List;
+
+/**
+ * Creative by beanflame on 2020-01-15 16:23
+ */
 
 public class TileEntityMiningMachine extends TileEntity implements ITickable
 {

@@ -1,8 +1,4 @@
-/**
- * Creative by DouYan on 2020-01-16 15:56
- */
 package com.beanflame.ucemod.proxy;
-
 
 import com.beanflame.ucemod.registry.UCEModelLoader;
 import com.beanflame.ucemod.registry.UCERegistry;
@@ -11,6 +7,9 @@ import com.beanflame.ucemod.registry.UCERenderLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+/**
+ * Creative by beanflame on 2020/1/25
+ */
 
 public class ClientProxy extends CommonProxy
 {

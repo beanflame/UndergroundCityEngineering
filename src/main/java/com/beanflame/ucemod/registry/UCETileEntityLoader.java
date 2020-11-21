@@ -1,6 +1,3 @@
-/**
- * Creative by DouYan on 2020-01-15 16:23
- */
 package com.beanflame.ucemod.registry;
 
 import com.beanflame.ucemod.UCEmod;
@@ -9,6 +6,11 @@ import com.beanflame.ucemod.block.tile.TileEntityCoreBlock;
 import com.beanflame.ucemod.block.tile.TileEntityMiningMachine;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+
+/**
+ * Creative by beanflame on 2020/1/25
+ * 豆焰 / 青蛙
+ */
 
 public class UCETileEntityLoader
 {

@@ -10,6 +10,10 @@ import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+/**
+ * Creative by beanflame on 2020/1/25
+ */
+
 public class ItemExplorer extends Item {
     public int fuel;
     public MineLevel mine_level;

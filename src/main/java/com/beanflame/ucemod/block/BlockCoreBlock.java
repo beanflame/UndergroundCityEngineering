@@ -1,6 +1,3 @@
-/**
- * Creative by DouYan on 2020-01-15 16:23
- */
 package com.beanflame.ucemod.block;
 
 import com.beanflame.ucemod.UCEmod;
@@ -11,6 +8,10 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+
+/**
+ * Creative by beanflame on 2020-01-15 16:23
+ */
 
 public class BlockCoreBlock extends BlockDirectional
 {

@@ -1,6 +1,3 @@
-/**
- * Creative by DouYan on 2020-01-15 16:23
- */
 package com.beanflame.ucemod.registry;
 
 import com.beanflame.ucemod.block.BlockCoreBlock;
@@ -14,6 +11,10 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+/**
+ * Creative by beanflame on 2020/1/25
+ */
 
 @Mod.EventBusSubscriber
 public class UCEBlock

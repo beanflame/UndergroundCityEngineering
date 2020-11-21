@@ -1,6 +1,3 @@
-/**
- * Creative by DouYan on 2020-01-16 15:56
- */
 package com.beanflame.ucemod.proxy;
 
 import com.beanflame.ucemod.registry.*;
@@ -8,6 +5,10 @@ import com.beanflame.ucemod.registry.*;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+/**
+ * Creative by beanflame on 2020/1/25
+ */
 
 public class CommonProxy
 {

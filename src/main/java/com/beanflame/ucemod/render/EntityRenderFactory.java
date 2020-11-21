@@ -4,6 +4,10 @@ import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 
+/**
+ * Creative by beanflame on 2020/1/25
+ */
+
 public class EntityRenderFactory implements IRenderFactory {
     private final Class<? extends Render> renderClass;
     public EntityRenderFactory( Class<? extends Render> renderClass){

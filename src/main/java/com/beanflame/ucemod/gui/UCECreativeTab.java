@@ -1,8 +1,4 @@
-/**
- * Creative by DouYan on 2020-01-15 16:23
- */
 package com.beanflame.ucemod.gui;
-
 
 import com.beanflame.ucemod.UCEmod;
 import com.beanflame.ucemod.registry.UCEBlock;
@@ -13,6 +9,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+/**
+ * Creative by beanflame on 2020-01-15 16:23
+ */
 
 public class UCECreativeTab
 {

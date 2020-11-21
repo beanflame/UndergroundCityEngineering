@@ -12,6 +12,10 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+/**
+ * Creative by beanflame on 2020/1/25
+ */
+
 @Mod(modid = UCEmod.MODID, name = UCEmod.NAME, version = UCEmod.VERSION)
 public class UCEmod
 {

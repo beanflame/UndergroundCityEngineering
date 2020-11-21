@@ -9,6 +9,10 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+/**
+ * Creative by beanflame on 2020/1/25
+ */
+
 @SideOnly(Side.CLIENT)
 @Mod.EventBusSubscriber
 public class UCEModelLoader

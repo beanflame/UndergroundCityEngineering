@@ -7,6 +7,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.EntityEntry;
 import net.minecraftforge.fml.common.registry.EntityEntryBuilder;
+
+/**
+ * Creative by beanflame on 2020/1/25
+ */
+
 @Mod.EventBusSubscriber
 public class UCEEntityLoader
 {
