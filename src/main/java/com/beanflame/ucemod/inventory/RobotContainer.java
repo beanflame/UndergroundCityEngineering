@@ -5,6 +5,7 @@ import net.minecraft.inventory.InventoryBasic;
 /**
  * Creative by beanflame on 2020/1/25
  */
+/*
 
 public class RobotContainer extends InventoryBasic
 {
@@ -13,3 +14,4 @@ public class RobotContainer extends InventoryBasic
     }
 
 }
+ */

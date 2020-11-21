@@ -20,7 +20,7 @@ public class BlockCoreBlock extends BlockDirectional
         super(Material.ROCK);
         setCreativeTab(UCECreativeTab.UCETAB);
        
-        setTranslationKey("uce.core_block");
+        setTranslationKey(UCEmod.MODID + ".core_block");
         setRegistryName(UCEmod.MODID, "core_block");
     }
 

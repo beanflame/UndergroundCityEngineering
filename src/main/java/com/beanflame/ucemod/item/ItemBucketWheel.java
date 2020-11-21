@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
  * Creative by beanflame on 2020/1/25
  */
 
+/*
 public class ItemBucketWheel extends Item
 {
     public ItemBucketWheel()
@@ -20,3 +21,4 @@ public class ItemBucketWheel extends Item
     }
     
 }
+ */

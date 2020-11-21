@@ -1,10 +1,6 @@
 package com.beanflame.ucemod.registry;
 
-import com.beanflame.ucemod.block.BlockCoreBlock;
-import com.beanflame.ucemod.block.BlockEngineerWorktable;
-import com.beanflame.ucemod.block.BlockMiningMachine;
-import com.beanflame.ucemod.block.BlockMiningTube;
-import com.beanflame.ucemod.block.BlockPartBlock;
+import com.beanflame.ucemod.block.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -19,16 +15,13 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber
 public class UCEBlock
 {
-	
-	public static final Block ENGINEER_WORKTABLE = new BlockEngineerWorktable();
-	
 	public static final Block MINING_MACHINE = new BlockMiningMachine();
 	public static final Block MINING_TUBE = new BlockMiningTube();
 	
 	public static final Block CORE_BLOCK = new BlockCoreBlock();
-	public static final Block PART_BLOCK = new BlockPartBlock();
-	
-	
+	public static final Block ELECTRIC_CIRCUIT_BLOCK = new BlockElectricCircuitBlock();
+
+	public static final Block MACHINERY_BLOCK = new BlockMachineryBlock();
 
 	private RegistryEvent.Register<Block> blockRegister;
 	@SubscribeEvent
@@ -36,34 +29,33 @@ public class UCEBlock
 	{
 		blockRegister=event;
 		// 注册方块
-		
-		regBlock(UCEBlock.ENGINEER_WORKTABLE);
-		
-		regBlock(UCEBlock.MINING_MACHINE);
-		regBlock(UCEBlock.MINING_TUBE);
-		
-		regBlock(UCEBlock.CORE_BLOCK);
-		regBlock(UCEBlock.PART_BLOCK);
-		
-		
-		
-		
-		
+
+		regBlock(UCEBlock.MINING_MACHINE);				//采矿机
+		regBlock(UCEBlock.MINING_TUBE);					//采矿管
+
+
+		regBlock(UCEBlock.CORE_BLOCK);					//核心方块
+		regBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK);		//电路块
+
+		regBlock(UCEBlock.MACHINERY_BLOCK);				//机械方块
+
 	}
+
+
 	private void regBlock(Block block){
 		blockRegister.getRegistry().register(block);
 	}
 	@SubscribeEvent
 	public void registerItemBlocks(RegistryEvent.Register<Item> event)
 	{
-		event.getRegistry().register(new ItemBlock(UCEBlock.ENGINEER_WORKTABLE).setRegistryName(UCEBlock.ENGINEER_WORKTABLE.getRegistryName()));
-		
 		event.getRegistry().register(new ItemBlock(UCEBlock.MINING_MACHINE).setRegistryName(UCEBlock.MINING_MACHINE.getRegistryName()));
 		event.getRegistry().register(new ItemBlock(UCEBlock.MINING_TUBE).setRegistryName(UCEBlock.MINING_TUBE.getRegistryName()));
 		
 		event.getRegistry().register(new ItemBlock(UCEBlock.CORE_BLOCK).setRegistryName(UCEBlock.CORE_BLOCK.getRegistryName()));
-		event.getRegistry().register(new ItemBlock(UCEBlock.PART_BLOCK).setRegistryName(UCEBlock.PART_BLOCK.getRegistryName()));
-		
+		event.getRegistry().register(new ItemBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK).setRegistryName(UCEBlock.ELECTRIC_CIRCUIT_BLOCK.getRegistryName()));
+
+		event.getRegistry().register(new ItemBlock(UCEBlock.MACHINERY_BLOCK).setRegistryName(UCEBlock.MACHINERY_BLOCK.getRegistryName()));
+
 	}
 
 }

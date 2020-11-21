@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "underground_city_engineering:electric_circuit_block" }
+    }
+}

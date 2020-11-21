@@ -1,7 +1,7 @@
 package com.beanflame.ucemod.item;
 
 import com.beanflame.ucemod.gui.UCECreativeTab;
-import com.beanflame.ucemod.utils.MineLevel;
+//import com.beanflame.ucemod.utils.MineLevel;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -11,9 +11,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 /**
- * Creative by beanflame on 2020/1/25
+ * Creative by 青蛙 on 2020/1/25
  */
 
+/*
 public class ItemExplorer extends Item {
     public int fuel;
     public MineLevel mine_level;
@@ -50,3 +51,4 @@ public class ItemExplorer extends Item {
     }
 
 }
+*/

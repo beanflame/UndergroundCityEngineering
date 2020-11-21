@@ -29,7 +29,7 @@ public class BlockMiningTube extends Block
     {
         super(Material.GLASS);
         setCreativeTab(UCECreativeTab.UCETAB);
-        setTranslationKey("uce.mining_tube");
+        setTranslationKey(UCEmod.MODID+".mining_tube");
         setRegistryName(UCEmod.MODID, "mining_tube");
     }
 	

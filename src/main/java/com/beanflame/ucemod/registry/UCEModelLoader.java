@@ -26,15 +26,18 @@ public class UCEModelLoader
     
     public void registerItemModels()
     {
-    	registerItemModel(Item.getItemFromBlock(UCEBlock.ENGINEER_WORKTABLE));
-    	
-        registerItemModel(Item.getItemFromBlock(UCEBlock.MINING_MACHINE));
-        registerItemModel(Item.getItemFromBlock(UCEBlock.MINING_TUBE));
-        
-        registerItemModel(Item.getItemFromBlock(UCEBlock.CORE_BLOCK));
-        registerItemModel(Item.getItemFromBlock(UCEBlock.PART_BLOCK));
-        
-        registerItemModel(UCEItem.BUCKET_WHEEL);
+        registerItemModel(Item.getItemFromBlock(UCEBlock.MINING_MACHINE));  //采矿机
+        registerItemModel(Item.getItemFromBlock(UCEBlock.MINING_TUBE));     //采矿管
+
+
+        registerItemModel(Item.getItemFromBlock(UCEBlock.CORE_BLOCK));      //核心方块
+        registerItemModel(Item.getItemFromBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK));      //零件块
+
+        registerItemModel(Item.getItemFromBlock(UCEBlock.MACHINERY_BLOCK));      //机械方块
+
+       // registerItemModel(UCEItem.BUCKET_WHEEL);                            //斗轮 物品
+
+
     }
     
     // 注册普通的物品的模型

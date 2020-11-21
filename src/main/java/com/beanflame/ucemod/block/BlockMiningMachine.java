@@ -31,7 +31,7 @@ public class BlockMiningMachine extends Block
 		super(Material.ROCK);
 		setCreativeTab(UCECreativeTab.UCETAB);
 		
-		setTranslationKey("uce.mining_machine");
+		setTranslationKey(UCEmod.MODID + ".mining_machine");
 		setRegistryName(UCEmod.MODID, "mining_machine");
        
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));

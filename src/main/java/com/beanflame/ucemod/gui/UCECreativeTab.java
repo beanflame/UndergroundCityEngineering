@@ -20,9 +20,9 @@ public class UCECreativeTab
 		@SideOnly(Side.CLIENT)
 		public ItemStack createIcon()
 		{
-			return new ItemStack(Item.getItemFromBlock(UCEBlock.ENGINEER_WORKTABLE));
+			return new ItemStack(Item.getItemFromBlock(UCEBlock.MINING_MACHINE));
 
 		}
-	};//.setBackgroundImageName("bg.png");
+	};
 	
 }

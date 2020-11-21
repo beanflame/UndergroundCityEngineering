@@ -198,7 +198,7 @@ public class TileEntityMiningMachine extends TileEntity implements ITickable
         Block block3 = world.getBlockState(pos.add(4,0,4)).getBlock();
         Block block4 = world.getBlockState(pos.add(4,0,-4)).getBlock();
 
-        if(block1== UCEBlock.PART_BLOCK&&block2== UCEBlock.PART_BLOCK&&block3== UCEBlock.PART_BLOCK&&block4== UCEBlock.PART_BLOCK)
+        if(block1== UCEBlock.ELECTRIC_CIRCUIT_BLOCK&&block2== UCEBlock.ELECTRIC_CIRCUIT_BLOCK&&block3== UCEBlock.ELECTRIC_CIRCUIT_BLOCK&&block4== UCEBlock.ELECTRIC_CIRCUIT_BLOCK)
         {
             return true;
         }else

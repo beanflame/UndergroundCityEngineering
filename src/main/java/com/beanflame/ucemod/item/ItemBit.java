@@ -7,6 +7,7 @@ import net.minecraft.item.Item;
  * Creative by beanflame on 2020/1/25
  */
 
+/*
 public class ItemBit extends Item {
     public ItemBit(){
         setCreativeTab(UCECreativeTab.UCETAB)
@@ -14,3 +15,4 @@ public class ItemBit extends Item {
                 .setRegistryName("uce:basic_mining_ship");
     }
 }
+*/
