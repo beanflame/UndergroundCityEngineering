@@ -1,0 +1,9 @@
+Build£º
+
+Gradle Ver £º4.8.1
+
+ForgeGradle Ver £º 2.3
+
+MCP Ver £º stable_39
+
+Forge Ver £º 1.12.2-14.23.5.2768

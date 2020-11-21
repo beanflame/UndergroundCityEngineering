@@ -18,9 +18,12 @@ apply plugin: 'maven'
 
 
 //项目基础
-version = "1.0"
-group = "com.douyan.ucemod"
-archivesBaseName = "ucemod"
+version = "1.0.0"
+
+group = "com.beanflame.ucemod"
+
+archivesBaseName = "Underground City Engineering"
+
 sourceCompatibility = targetCompatibility = '1.8'
 
 compileJava
