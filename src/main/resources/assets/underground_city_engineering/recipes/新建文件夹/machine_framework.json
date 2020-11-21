@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "machine_framework",
+  "pattern": [
+    "AAA",
+    "AAA",
+	"AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "goldrush:iron_bar"
+    }
+  },
+  "result": {
+    "item": "goldrush:machine_framework",
+	 "count": 1
+  }
+}
+

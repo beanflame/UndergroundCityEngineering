@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wood_multifunctional_tools",
+  "pattern": [
+    "A B",
+    " C ",
+    "D E"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wooden_axe"
+    },
+	"B": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+	"C": {
+      "item": "goldrush:tools_core"
+    },
+	"D": {
+      "item": "minecraft:wooden_hoe"
+    },
+	"E": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "goldrush:wood_multifunctional_tools",
+	 "count": 1
+  }
+}
+

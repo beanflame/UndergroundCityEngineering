@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "robot_destroyer",
+  "pattern": [
+    "ECE",
+    "DBD",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "goldrush:uniaxial_two_wheel"
+    },
+	"B": {
+      "item": "goldrush:gear"
+    },
+	"C": {
+      "item": "minecraft:redstone_block"
+    },
+	"D": {
+      "item": "goldrush:machinery_casing"
+    },
+	"E": {
+      "item": "goldrush:chip_advance"
+    }
+  },
+  "result": {
+    "item": "goldrush:robot_destroyer",
+	 "count": 1
+  }
+}
+

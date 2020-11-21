@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "robot_terminator",
+  "pattern": [
+    "ONO",
+    "NCN",
+    "BAB"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:diamond"
+    },
+	"B": {
+      "item": "goldrush:gear"
+    },
+	"A": {
+      "item": "minecraft:redstone_block"
+    },
+	"N": {
+      "item": "goldrush:machinery_casing"
+    },
+	"C": {
+      "item": "goldrush:chip_advance"
+    }
+  },
+  "result": {
+    "item": "goldrush:robot_terminator",
+	 "count": 1
+  }
+}
+

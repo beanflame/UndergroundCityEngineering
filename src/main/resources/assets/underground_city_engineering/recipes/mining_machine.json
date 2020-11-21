@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mining_machine",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+	"B": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+	"C": {
+      "item": "underground_city_engineering:machinery_casing"
+    }
+	
+	
+	
+  },
+  "result": {
+    "item": "underground_city_engineering:mining_machine",
+	 "count": 1
+  }
+}
+
