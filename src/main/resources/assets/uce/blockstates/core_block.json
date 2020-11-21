@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "uce:core_block" }
+    }
+}

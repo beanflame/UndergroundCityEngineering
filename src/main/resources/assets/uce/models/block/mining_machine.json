@@ -1,0 +1,24 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"0": "uce:blocks/mining_machine/bottom",
+		"1": "uce:blocks/mining_machine/side",
+		"2": "uce:blocks/mining_machine/top",
+		"3": "uce:blocks/mining_machine/front",
+		"particle": "uce:blocks/mining_machine/front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

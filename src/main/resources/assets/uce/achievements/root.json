@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "uce:core_block"
+        },
+        "title": {
+            "translate": "advancements.uce.title"
+        },
+        "description": {
+            "translate": "advancements.uce.title.desc"
+        },
+        "background": "minecraft:textures/blocks/log_oak.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
