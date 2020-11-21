@@ -29,4 +29,4 @@ jobs:
       if: success()
       with:
         name: Underground City Engineering - 1.0.0
-        path: build/libs/UndergroundCityEngineering-1.0.0.jar
+        path: build/libs/Underground City Engineering-1.0.0.jar
