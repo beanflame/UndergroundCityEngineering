@@ -24,3 +24,9 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      if: success()
+      with:
+        name: Underground City Engineering - 1.0.0
+        path: build/libs/UndergroundCityEngineering-1.0.0.jar
