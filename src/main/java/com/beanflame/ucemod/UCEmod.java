@@ -1,6 +1,3 @@
-/**
- * Creative by DouYan on 2020-01-16 15:56
- */
 package com.beanflame.ucemod;
 
 import com.beanflame.ucemod.proxy.CommonProxy;
