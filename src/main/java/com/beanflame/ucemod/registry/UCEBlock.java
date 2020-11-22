@@ -16,22 +16,17 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class UCEBlock
 {
 	public static final Block MINING_MACHINE = new BlockMiningMachine();		//采矿机
-
 	public static final Block MINING_PIPE = new BlockMiningPipe();				//采矿管
-	
 	public static final Block CORE_BLOCK = new BlockCoreBlock();				//核心方块
-
 	public static final Block ELECTRIC_CIRCUIT_BLOCK = new BlockElectricCircuitBlock();		//电路块
 
 
-
-	public static final Block MACHINERY_BLOCK = new BlockMachineryBlock();		//机械块
+	public static final Block MACHINERY_BLOCK = new BlockMachineryBlock();		//机械方块
 	public static final Block MACHINERY_CASING= new BlockMachineryCasing();		//机械外壳
 
 
+
 	private RegistryEvent.Register<Block> blockRegister;
-
-
 	@SubscribeEvent
 	public void registerBlocks(RegistryEvent.Register<Block> event)
 	{
@@ -41,14 +36,11 @@ public class UCEBlock
 		regBlock(UCEBlock.MINING_MACHINE);				//采矿机
 		regBlock(UCEBlock.MINING_PIPE);					//采矿管
 
+		regBlock(UCEBlock.MACHINERY_CASING);			//机械外壳
+		regBlock(UCEBlock.MACHINERY_BLOCK);				//机械方块
 
 		regBlock(UCEBlock.CORE_BLOCK);					//核心方块
 		regBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK);		//电路块
-
-		regBlock(UCEBlock.MACHINERY_BLOCK);				//机械方块
-
-		regBlock(UCEBlock.MACHINERY_CASING);			//机械外壳
-
 
 
 

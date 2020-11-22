@@ -11,6 +11,7 @@ import net.minecraft.block.material.Material;
 
 public class BlockMachineryBlock extends Block {
 
+    //机械
     //机器方块
     //MachineBlock
 
@@ -19,6 +20,6 @@ public class BlockMachineryBlock extends Block {
         super(Material.GLASS);
         setCreativeTab(UCECreativeTab.UCETAB);
         setTranslationKey(UCEmod.MODID + ".machinery_block");
-        setRegistryName(UCEmod.MODID, "machinery_block");//机械
+        setRegistryName(UCEmod.MODID, "machinery_block");
     }
 }
