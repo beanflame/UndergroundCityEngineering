@@ -1,8 +1,8 @@
 {
 	"parent": "block/cube",
 	"textures": {
-		"0": "underground_city_engineering:blocks/mining_machine/mining_tube_a1",
-		"particle": "underground_city_engineering:blocks/mining_machine/mining_tube_a1"
+		"0": "underground_city_engineering:blocks/mining_machine/mining_pipe_a1",
+		"particle": "underground_city_engineering:blocks/mining_machine/mining_pipe_a1"
 	},
 	"elements": [
 		{

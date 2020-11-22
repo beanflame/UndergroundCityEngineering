@@ -11,8 +11,8 @@ import net.minecraft.block.material.Material;
 
 public class BlockMachineryBlock extends Block {
 
-    //机械方块
-
+    //机器方块
+    //MachineBlock
 
     public BlockMachineryBlock()
     {

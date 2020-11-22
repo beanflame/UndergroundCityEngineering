@@ -7,14 +7,15 @@ import net.minecraft.block.material.Material;
 
 public class BlockMachineryCasing extends Block {
 
-    //machinery_casing
-
-
-    //Machinery_Casing
-
-    //BlockMachineryCasing
-
     //机械外壳
+
+    //Machine  机器 -机
+
+    //Machine Casing
+
+    //Machinery 机械
+
+    //机壳
 
     public BlockMachineryCasing()
     {

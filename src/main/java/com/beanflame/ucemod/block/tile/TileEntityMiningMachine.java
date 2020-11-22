@@ -34,7 +34,7 @@ public class TileEntityMiningMachine extends TileEntity implements ITickable
     private int depth = 0;
     //private long microJoules = 0;
     
-	//清除采矿管
+	//清除采矿管道
     public void DeleteMiningTube()
     {
     	/*
@@ -55,7 +55,7 @@ public class TileEntityMiningMachine extends TileEntity implements ITickable
     	
     	while(pos.getY() >= 0)
     	{
-	    	if(getWorld().getBlockState(pos).getBlock() == UCEBlock.MINING_TUBE)
+	    	if(getWorld().getBlockState(pos).getBlock() == UCEBlock.MINING_PIPE)
 	        {
 	    		getWorld().setBlockState(new BlockPos(getPos().getX(), pos.getY(), getPos().getZ()), Blocks.AIR.getDefaultState());
 	        }else
@@ -93,14 +93,14 @@ public class TileEntityMiningMachine extends TileEntity implements ITickable
             //延长采矿管道
             //如果空气，给生成采矿管道的
 
-            //清除采矿管？    //延长采矿管道？
+            //清除采矿管道？    //延长采矿管道？
 	    	if(block.getMaterial() == Material.AIR)
 	        {
-	    		getWorld().setBlockState(new BlockPos(getPos().getX(), pos.getY(), getPos().getZ()), UCEBlock.MINING_TUBE.getDefaultState());
+	    		getWorld().setBlockState(new BlockPos(getPos().getX(), pos.getY(), getPos().getZ()), UCEBlock.MINING_PIPE.getDefaultState());
 	        }
 	    	
 	    	
-	    	if(block.getMaterial() != Material.AIR && block.getBlock() != UCEBlock.MINING_TUBE)
+	    	if(block.getMaterial() != Material.AIR && block.getBlock() != UCEBlock.MINING_PIPE)
 	        	
 	            
 	    		// if(block.getBlock() != Blocks.AIR && block.getBlock() != UCEBlock.MINING_TUBE)

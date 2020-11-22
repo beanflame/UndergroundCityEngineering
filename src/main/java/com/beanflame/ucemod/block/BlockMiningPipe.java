@@ -21,18 +21,19 @@ import net.minecraft.world.IBlockAccess;
  * Creative by beanflame on 2020-01-15 16:23
  */
 
-public class BlockMiningTube extends Block
+public class BlockMiningPipe extends Block
 {
-	protected static final AxisAlignedBB MINING_TUBE_AABB = new AxisAlignedBB(4 /16D, 0 /16D, 4 /16D, 12 /16D, 16 /16D, 12 /16D);
+	protected static final AxisAlignedBB MINING_PIPE_AABB = new AxisAlignedBB(4 /16D, 0 /16D, 4 /16D, 12 /16D, 16 /16D, 12 /16D);
 
-	//采矿管
+	//采矿管道
+    //Mining Pipe
 
-	public BlockMiningTube()
+	public BlockMiningPipe()
     {
         super(Material.GLASS);
         setCreativeTab(UCECreativeTab.UCETAB);
-        setTranslationKey(UCEmod.MODID+".mining_tube");
-        setRegistryName(UCEmod.MODID, "mining_tube");
+        setTranslationKey(UCEmod.MODID+".mining_pipe");
+        setRegistryName(UCEmod.MODID, "mining_pipe");
     }
 	
 	
@@ -70,7 +71,7 @@ public class BlockMiningTube extends Block
 	@Override
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
     {
-		 return MINING_TUBE_AABB;
+		 return MINING_PIPE_AABB;
     }
 	
 	

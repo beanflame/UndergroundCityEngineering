@@ -6,13 +6,15 @@ itemGroup.underground_city_engineering.uce.name=Underground City Engineering
 #block-item
 
 tile.underground_city_engineering.mining_machine.name=Mining Machine
-tile.underground_city_engineering.mining_tube.name=Mining Tube
+tile.underground_city_engineering.mining_pipe.name=Mining Pipe
 
-tile.underground_city_engineering.machinery_casing.name=Machinery Casing
+
 tile.underground_city_engineering.core_block.name=Core Block
 tile.underground_city_engineering.electric_circuit_block.name=Electric Circuit Block
-tile.underground_city_engineering.machinery_block.name=Machinery Block
 
+
+tile.underground_city_engineering.machinery_block.name=Machinery Block
+tile.underground_city_engineering.machinery_casing.name=Machinery Casing
 
 
 #item

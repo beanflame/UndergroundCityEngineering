@@ -15,19 +15,18 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber
 public class UCEBlock
 {
-	public static final Block MINING_MACHINE = new BlockMiningMachine();
+	public static final Block MINING_MACHINE = new BlockMiningMachine();		//采矿机
 
-	public static final Block MINING_TUBE = new BlockMiningTube();
+	public static final Block MINING_PIPE = new BlockMiningPipe();				//采矿管
 	
-	public static final Block CORE_BLOCK = new BlockCoreBlock();
+	public static final Block CORE_BLOCK = new BlockCoreBlock();				//核心方块
 
-	public static final Block ELECTRIC_CIRCUIT_BLOCK = new BlockElectricCircuitBlock();
-
-	public static final Block MACHINERY_BLOCK = new BlockMachineryBlock();
-
-	public static final Block MACHINERY_CASING= new BlockMachineryCasing();
+	public static final Block ELECTRIC_CIRCUIT_BLOCK = new BlockElectricCircuitBlock();		//电路块
 
 
+
+	public static final Block MACHINERY_BLOCK = new BlockMachineryBlock();		//机械块
+	public static final Block MACHINERY_CASING= new BlockMachineryCasing();		//机械外壳
 
 
 	private RegistryEvent.Register<Block> blockRegister;
@@ -40,7 +39,7 @@ public class UCEBlock
 		// 注册方块
 
 		regBlock(UCEBlock.MINING_MACHINE);				//采矿机
-		regBlock(UCEBlock.MINING_TUBE);					//采矿管
+		regBlock(UCEBlock.MINING_PIPE);					//采矿管
 
 
 		regBlock(UCEBlock.CORE_BLOCK);					//核心方块
@@ -64,7 +63,7 @@ public class UCEBlock
 	public void registerItemBlocks(RegistryEvent.Register<Item> event)
 	{
 		event.getRegistry().register(new ItemBlock(UCEBlock.MINING_MACHINE).setRegistryName(UCEBlock.MINING_MACHINE.getRegistryName()));
-		event.getRegistry().register(new ItemBlock(UCEBlock.MINING_TUBE).setRegistryName(UCEBlock.MINING_TUBE.getRegistryName()));
+		event.getRegistry().register(new ItemBlock(UCEBlock.MINING_PIPE).setRegistryName(UCEBlock.MINING_PIPE.getRegistryName()));
 		
 		event.getRegistry().register(new ItemBlock(UCEBlock.CORE_BLOCK).setRegistryName(UCEBlock.CORE_BLOCK.getRegistryName()));
 		event.getRegistry().register(new ItemBlock(UCEBlock.ELECTRIC_CIRCUIT_BLOCK).setRegistryName(UCEBlock.ELECTRIC_CIRCUIT_BLOCK.getRegistryName()));
