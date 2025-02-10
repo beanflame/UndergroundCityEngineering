@@ -20,7 +20,7 @@ import javax.swing.text.html.parser.Entity;
  * 豆焰 / 青蛙
  */
 
-@SideOnly(Side.CLIENT)
+// @SideOnly(Side.CLIENT)
 @Mod.EventBusSubscriber
 public class UCERenderLoader
 {
