@@ -13,10 +13,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  * Creative by beanflame on 2020/1/25
  */
 
-// 2025/2/10 , "@SideOnly(Side.CLIENT)" Del.
-
 // @SideOnly(Side.CLIENT)
-@Mod.EventBusSubscriber
+// @Mod.EventBusSubscriber
 public class UCEModelLoader
 {
     @SubscribeEvent

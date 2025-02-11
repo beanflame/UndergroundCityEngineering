@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
  * Creative by beanflame on 2020/1/25
  */
 
-@Mod.EventBusSubscriber
+// @Mod.EventBusSubscriber
 public class UCEItem
 {
 	//public static final  ItemBucketWheel BUCKET_WHEEL = new ItemBucketWheel();

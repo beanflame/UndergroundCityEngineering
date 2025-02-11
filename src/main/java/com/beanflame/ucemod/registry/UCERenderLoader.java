@@ -21,7 +21,7 @@ import javax.swing.text.html.parser.Entity;
  */
 
 // @SideOnly(Side.CLIENT)
-@Mod.EventBusSubscriber
+// @Mod.EventBusSubscriber
 public class UCERenderLoader
 {
    public UCERenderLoader(){

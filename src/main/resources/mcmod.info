@@ -1,16 +1,13 @@
-[
-{
-  "modid": "underground_city_engineering",
-  "name": "Underground City Engineering",
-  "description": "",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["beanflame","GoldMain","Mr_zhao"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "logo.png",
-  "screenshots": [],
-  "dependencies": []
-}
-]
+[{
+	"modid": "underground_city_engineering",
+	"name": "Underground City Engineering",
+	"version": "${mod_version}",
+	"mcversion": "1.12.2",
+	"description": "${mod_description}",
+	"authorList": ["beanflame","GoldMain","Mr_zhao"],
+	"credits": "The Forge and FML guys, for making this example",
+	"url": "${mod_url}",
+	"updateJSON": "${mod_update_json}",
+	"logoFile": "${mod_logo_path}"
+}]
+

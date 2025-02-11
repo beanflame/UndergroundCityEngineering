@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
  * Creative by beanflame on 2020/1/25
  */
 
-@Mod.EventBusSubscriber
+// @Mod.EventBusSubscriber
 public class UCEBlock
 {
 	public static final Block MINING_MACHINE = new BlockMiningMachine();		//采矿机

@@ -54,7 +54,10 @@ public class TileEntityCoreBlock extends TileEntity implements ITickable
             IItemHandler iItemHandler = world.getTileEntity(pos).getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY,EnumFacing.DOWN);
             isRun = true;
             isRun = !InventoryUtils.isFull(iItemHandler);
-            AxisAlignedBB AABB2 = this.getRenderBoundingBox().grow(1);
+            // AxisAlignedBB AABB2 = this.getRenderBoundingBox().grow(4,0,4).grow(1);
+
+            AxisAlignedBB AABB2 = new AxisAlignedBB(initPos, new BlockPos(initPos.getX() + 9, 0, initPos.getZ() + 9)).grow(1);
+
             List<EntityItem> entityItemList = world.getEntitiesWithinAABB(EntityItem.class, AABB2);
             for (EntityItem entityItem : entityItemList)
             {
@@ -189,9 +192,11 @@ public class TileEntityCoreBlock extends TileEntity implements ITickable
         return 10000000;
     }
 
-    @Override
-    public AxisAlignedBB getRenderBoundingBox()
-    {
-        return super.getRenderBoundingBox().grow(4,0,4);
-    }
+    // @Override
+    // public AxisAlignedBB getRenderBoundingBox()
+    // {
+    //     return super.getRenderBoundingBox().grow(4,0,4);
+    // }
+
+
 }
